@@ -13,7 +13,8 @@ function Board() {
             fill="grey"
             shadowBlur={10}
           />
-          <Hold/>
+          <Hold colour="blue" x="40" y="100"/>
+          <Hold colour="red" x="240" y="100"/>
         </Layer>
       </Stage>
     );
